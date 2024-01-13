@@ -1,0 +1,102 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  padding: 40px 0;
+}
+section {
+  padding: 50px 0;
+}
+.static-list,
+.relative-list,
+.absolute-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.static-item,
+.relative-item,
+.absolute-item {
+  border: 1px solid green;
+  padding: 20px;
+}
+.absolute-item {
+  flex-basis: calc((100% - 60px) / 3);
+  border-radius: 40px;
+  background-color: #fff;
+}
+.sticky-item-title {
+  background-color: yellow;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.sticky-item .text {
+  font-size: 30px;
+  line-height: 2;
+}
+.text {
+  font-size: 20px;
+}
+.btn {
+  display: block;
+  width: 100%;
+  background-color: rgb(1, 61, 26);
+  color: white;
+  padding: 10px 0;
+  margin-top: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.relative-btn {
+  background-color: orange;
+}
+.absolute-btn {
+  background-color: palevioletred;
+}
+.chat-wrapper {
+  width: 150px;
+}
+
+
+
